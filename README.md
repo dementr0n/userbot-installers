@@ -1,8 +1,6 @@
 Пожалуйста, прочитайте инструкцию до конца!
 Данный скрипт совместим с Debian, Ubuntu и на них основанных. 
-Загрузите скрипт: curl -O https://raw.githubusercontent.com/dementr0n/Hikka-autoinst/master/hikka_autoinst.sh
-chmod +x hikka_autoinst.sh
-./hikka_autoinst.sh
+Загрузите скрипт: curl -O https://raw.githubusercontent.com/dementr0n/Hikka-autoinst/master/hikka_autoinst.sh && chmod +x hikka_autoinst.sh && ./hikka_autoinst.sh
 После завершения работы скрипта вам необходимо загрузить модуль systemd (.dlm systemd), написать команды:
 1: .addunit hikka
 2: .units
