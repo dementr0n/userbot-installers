@@ -9,7 +9,7 @@ function isRoot() {
 	fi
 }
 
-apt update && apt upgrade && apt install python3 python3-pip git libcairo2 sudo -y
+apt update && apt upgrade -y && apt install python3 python3-pip git libcairo2 sudo -y
 
 git clone https://github.com/hikariatama/Hikka && cd /root/Hikka
 
