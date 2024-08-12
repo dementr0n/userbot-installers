@@ -9,7 +9,7 @@ fi
 
 clear
 
-export HOME=/root
+export $HOME=/root
 
 cd /root
 
