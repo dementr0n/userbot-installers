@@ -13,7 +13,7 @@ git clone https://github.com/hikariatama/Hikka && cd $WORKDIR/Hikka
 
 mv /usr/lib/python3.*/EXTERNALLY-MANAGED /usr/lib/python3.*/EXTERNALLY-MANAGED.old
 
-pip3 install -r requirements.txt 
+cd $WORKDIR/Hikka && pip3 install -r requirements.txt 
 
 cd /etc/systemd/system && echo "[Unit]
 Description = start hikka ub
