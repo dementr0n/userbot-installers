@@ -11,6 +11,8 @@ clear
 
 export HOME=/root
 
+cd
+
 apt update && apt upgrade -y && apt install python3 python3-pip git libcairo2 sudo -y
 
 git clone https://github.com/hikariatama/Hikka && cd $HOME/Hikka
