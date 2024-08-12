@@ -2,12 +2,7 @@
 
 #Hikka autoinstallation script
 
-function isRoot() {
-	if [ "${EUID}" -ne 0 ]; then
-		echo "You need to run this script as root"
-		exit 1
-	fi
-}
+if ! [ $(id -u) = 0 ]; then   echo "Start this from root user and from /root dir!"   exit 1 fi
 
 apt update && apt upgrade -y && apt install python3 python3-pip git libcairo2 sudo -y
 
