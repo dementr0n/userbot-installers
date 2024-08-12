@@ -2,7 +2,9 @@
 Данный скрипт совместим с Debian, Ubuntu и на них основанных. 
 
 Загрузите скрипт: 
-```curl -O https://raw.githubusercontent.com/dementr0n/Hikka-autoinst/master/hikka_autoinst.sh && chmod +x hikka_autoinst.sh && ./hikka_autoinst.sh```
+```curl -O https://raw.githubusercontent.com/dementr0n/Hikka-autoinst/master/hikka_autoinst_root.sh && chmod +x hikka_autoinst_root.sh && ./hikka_autoinst_root.sh```
+
+Если скрипт исполняется не от имени root, будет задействован альтернативный скрипт.
 
 После завершения работы скрипта юзербот попросит вас ввести API ID, API Hash(вы можете получить их на my.telegram.org), на вопросе о QR нажмите Enter, введите номер телефона, код подтверждения и пароль(если установлен) и ждите ±10 минут, зависит от ресурсов хоста.
 
