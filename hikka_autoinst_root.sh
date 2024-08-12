@@ -9,7 +9,7 @@ fi
 
 clear
 
-export $HOME="/root"
+export HOME="/root"
 
 apt update && apt upgrade -y && apt install python3 python3-pip git libcairo2 sudo -y
 
