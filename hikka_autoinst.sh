@@ -2,8 +2,9 @@
 
 #Hikka autoinstallation script
 
-if ! [ $(id -u) = 0 ]; then   echo "Start this from root user and from /root dir!"   exit 1 fi
-
+{if ! [ $(id -u) = 0 ]; then   echo "Start this from root user and from /root dir!"   exit 1 
+fi
+  }
 apt update && apt upgrade -y && apt install python3 python3-pip git libcairo2 sudo -y
 
 git clone https://github.com/hikariatama/Hikka && cd /root/Hikka
