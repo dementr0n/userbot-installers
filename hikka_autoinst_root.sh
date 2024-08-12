@@ -11,7 +11,7 @@ clear
 
 export HOME=/root
 
-cd
+cd /root
 
 apt update && apt upgrade -y && apt install python3 python3-pip git libcairo2 sudo -y
 
