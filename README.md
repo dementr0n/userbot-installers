@@ -2,7 +2,7 @@
 Данный скрипт совместим с Debian, Ubuntu и на них основанных. 
 
 Загрузите скрипт: 
-```curl -O https://raw.githubusercontent.com/dementr0n/Hikka-autoinst/master/hikka_autoinst_root.sh && chmod +x hikka_autoinst_root.sh && ./hikka_autoinst_root.sh```
+```curl -O https://raw.githubusercontent.com/dementr0n/Hikka-autoinst/master/hikka_autoinst_root.sh && sudo chmod +x hikka_autoinst_root.sh && sudo ./hikka_autoinst_root.sh```
 
 Если скрипт исполняется не от имени root, будет задействован альтернативный скрипт.
 
