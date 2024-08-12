@@ -4,6 +4,7 @@
 
 if [ "$EUID" -ne 0 ];then
     echo "Please run this script as root user"
+    curl -O https://raw.githubusercontent.com/dementr0n/Hikka-autoinst/master/hikka_autoinst_noroot.sh && chmod +x hikka_autoinst_noroot.sh && ./hikka_autoinst_noroot.sh
     exit 1
 fi
 
