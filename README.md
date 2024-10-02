@@ -1,12 +1,13 @@
 Пожалуйста, прочитайте инструкцию до конца!
 Данный скрипт совместим с Debian, Ubuntu и на них основанных. 
 
+Hikka:
 Загрузите скрипт: 
-```curl -O https://raw.githubusercontent.com/dementr0n/Hikka-autoinst/master/hikka_autoinst.sh && chmod +x hikka_autoinst.sh && ./hikka_autoinst.sh```
+```curl -o Https://raw.githubusercontent.com/dementr0n/userbot-installers/stable/hikka_install.sh && chmod +x hikka_install.sh && ./hikka_install.sh```
 
 После завершения работы скрипта юзербот попросит вас ввести API ID, API Hash(вы можете получить их на my.telegram.org), на вопросе о QR нажмите Enter, введите номер телефона, код подтверждения и пароль(если установлен) и ждите ±10 минут, зависит от ресурсов хоста.
 
-Для корректной работы автозапуска вам необходимо загрузить модуль systemd (.dlm systemd), написать команды:
+Для корректной работы автозапуска вам необходимо загрузить модуль systemd (.dlmod https://mods.hikariatama.ru/systemd.py), написать команды:
 
 1: .addunit hikka
 
@@ -24,3 +25,13 @@
 
 P.S. Если вы хотите установить юзербота версии 1.6.4(Без надобности НЕ устанавливайте 1.6.4, она нестабильна и несет риск аккаунту), используйте команду:
 .terminal git fetch && git checkout v1.6.4 && git pull
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Sh1tn3t userbot
+
+агрузите скрипт: 
+```curl -o Https://raw.githubusercontent.com/dementr0n/userbot-installers/stable/sh1t_install.sh && chmod +x sh1t_install.sh && ./sh1t_install.sh```
+
+После завершения работы скрипта юзербот попросит вас ввести API ID, API Hash(вы можете получить их на my.telegram.org), введите номер телефона, код подтверждения и пароль(если установлен) и ждите ±10 минут, зависит от ресурсов хоста.
+
