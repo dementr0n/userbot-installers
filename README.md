@@ -3,7 +3,7 @@
 
 Hikka:
 Загрузите скрипт: 
-```curl -o Https://raw.githubusercontent.com/dementr0n/userbot-installers/stable/hikka_install.sh && chmod +x hikka_install.sh && ./hikka_install.sh```
+```curl -O https://raw.githubusercontent.com/dementr0n/userbot-installers/stable/hikka_install.sh && chmod +x hikka_install.sh && ./hikka_install.sh```
 
 После завершения работы скрипта юзербот попросит вас ввести API ID, API Hash(вы можете получить их на my.telegram.org), на вопросе о QR нажмите Enter, введите номер телефона, код подтверждения и пароль(если установлен) и ждите ±10 минут, зависит от ресурсов хоста.
 
@@ -31,7 +31,7 @@ P.S. Если вы хотите установить юзербота верси
 Sh1tn3t userbot
 
 агрузите скрипт: 
-```curl -o Https://raw.githubusercontent.com/dementr0n/userbot-installers/stable/sh1t_install.sh && chmod +x sh1t_install.sh && ./sh1t_install.sh```
+```curl -O https://raw.githubusercontent.com/dementr0n/userbot-installers/stable/sh1t_install.sh && chmod +x sh1t_install.sh && ./sh1t_install.sh```
 
 После завершения работы скрипта юзербот попросит вас ввести API ID, API Hash(вы можете получить их на my.telegram.org), введите номер телефона, код подтверждения и пароль(если установлен) и ждите ±10 минут, зависит от ресурсов хоста.
 
